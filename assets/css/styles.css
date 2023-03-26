@@ -1,0 +1,461 @@
+/* header */
+#header{
+    background:  linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    height: 768px;
+    
+}   
+.header_navbar{
+    height: 95px;
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-item ul{
+    display: flex;
+    list-style: none;
+}
+.navbar-item ul a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+/* course_information */
+
+.course_information{
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.course_information-item{
+    margin-top: 32px;
+    width: 456px;
+    word-wrap: break-word;
+}
+.course_information-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 62px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.course_information-desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.course_information-submit{
+    display: inline-block;
+}
+
+.course_information-enrollQuantity{
+    width: 206px;
+    height: 90px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: var(--navy-blue-color);
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+.enrollQuantity-wrapper{
+    width: 206px;
+    height: 90px;
+    position: absolute;
+    right: 38%;
+    bottom: 362px;
+    /* transform: translate(-50%,-100%); */
+}
+.course_information-enrollQuantity h2 {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+    margin-top: 7px;
+}
+.course_information-enrollQuantity p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+}
+.enrollQuantity-bg{
+    position:absolute;
+    content: " ";
+    width: 206px;
+    height: 97px;
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);;
+    border-radius: 24px;
+    top: 0;
+    left: 7px;
+    z-index: 1;
+}
+.information-rating-wrapper{
+    position: absolute;
+    width: 183px;
+    height: 90px;
+    bottom: 122px;
+    right: 43.4%;
+}
+.course_information-rating {
+    position: absolute;
+    width: 183px;
+    height: 90px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    color: var(--navy-blue-color);
+    text-align: center;
+    z-index: 5;
+}
+.information-rating-bg {
+    position: absolute;
+    width: 185px;
+    height: 95px;
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+    border-radius: 24px;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+}
+.information-rating-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    height: 45px;
+    margin-top: 9px;
+}
+ /* end header for desktop */
+
+
+ /* testimonial for desktop */
+ .testimonials-wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+.testimonials-left{
+    width: 474px;
+    height: 546px;
+    position: relative;
+}
+
+.testimonials-vertical-cross {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 546px;
+    left: 87px;
+    top: 0;
+    background: #023047;
+    border-radius: 24px;
+    z-index: 3;
+}
+.testimonial-first-person {
+    width: 442px;
+    height: 222px;
+    left: 0;
+    top: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    position:absolute;
+    z-index: 10;
+    top: 35px;
+    left: 0;
+}
+.testimonial-person-title {
+    padding: 24px 32px;
+    width: 442px;
+    height: 102px;
+    background: #6F7DFB;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    
+}
+.testimonial-person-title h3 {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.testimonial-person-body div h2{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #023047;
+}
+.testimonial-person-body div p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #023047;
+}
+.testimonial-person-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 120px;
+    padding-left: 32px;
+}
+
+.first-person-avatar{
+    position: absolute;
+    right: 0;
+    top: -12px;
+}
+.testimonial-second-person{
+    width: 442px;
+    height: 222px;
+    left: 0;
+    top: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    position:absolute;
+    z-index: 10;
+    top: 307px;
+    left: 32px;
+}
+
+.testimonial-second-person .testimonial-person-title{
+    background-color: var(--orange-color);
+}
+
+.testimonials-right {
+   width: 560px;
+   word-wrap: break-word;
+}
+.testimonials-right p{
+    margin-top: 16px;
+    padding-bottom: 30px;
+ }
+.testimonials-right a{
+    text-decoration: none;
+}
+.testimonials-right a div{
+    display: inline-block;
+}
+/* end of the testimonials for desktop */
+/* course-section for desktop */
+.course_section{
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    height: 785px;
+}
+.course_section-heading{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 56px;
+}
+.course_section-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+.course_section-item {
+    width: 526px;
+    height: 418px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding:0 26px;
+}
+.course_section-item::after{
+    display: block;
+    content: "";
+    border-bottom: 8px solid var(--navy-blue-color);
+    margin-top: 38px;
+    border-radius: 24px;
+}
+.course-item-infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-item-infor h2 {
+    width: 374px;
+    height: 90px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--navy-blue-color);
+}
+
+.course-duration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course-duration img{
+    padding-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.course-section_all-course{
+    display: inline-block;
+    text-decoration: none;  
+    margin-top: 40px;
+    margin-bottom: 70px;
+    float: right;
+}
+.course-section_all-course a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* app-section for desktop */
+.app-section{
+    background-color: #fff;
+
+}
+.app-section-wrapper{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.app-section-title{
+    padding-bottom: 13px;
+}
+.app-section-aplication{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.app-section-appStore,
+.app-section-googlePlay{
+    width: 320px;
+    height: 100px;
+    background-color: #000;
+    Padding: 20px 31px;
+    gap: 14px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.app-section-appStore span,
+.app-section-googlePlay span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.app-section-appStore img,
+.app-section-googlePlay img {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#footer{
+    background-color: var(--black-color);
+    height: 410px;
+}
+.footer-wrapper a{
+    color: #fff;
+}
+.footer-wrapper {
+    display: flex;
+    padding-top: 70px;
+}
+.footer-link {
+    width: 180px;
+    height: 205px;
+}
+.footer-list-title{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+color: #DA722C;
+margin-bottom: 14px;
+}
+.footer-link-list ul li,
+.footer-contact-list ul li,
+.footer-course-list ul li {
+    margin-bottom: 9px;
+    padding-left: 22px;
+}
+.footer-copyright,
+.footer-link-list ul li a,
+.footer-contact-list ul li a,
+.footer-course-list ul li a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF
+}
+
+.footer-contact-social{
+    display: flex;
+    gap: 28px;
+}
+.footer-subscribe {
+    color: #fff;
+    display: flex;
+    width: 522px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    align-items: center;
+
+}
+.footer-subscribe div {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    height: 30px;
+    padding: 0 28px;
+    background-color: #023047;
+    margin: 4px 6px;
+    cursor: pointer;
+}
+.footer-subscribe input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 27px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+    opacity: 0.5;
+}
+.footer-course{
+    margin: 0 132px;
+}
+.footer-copyright{
+    margin-top: 32px;
+}
