@@ -23,7 +23,6 @@ html {
   height: 59px;
   border-radius: 24px;
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -36,7 +35,6 @@ html {
   height: 59px;
   border-radius: 24px;
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -49,7 +47,6 @@ html {
   height: 48px;
   border-radius: 24px;
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -62,7 +59,6 @@ html {
   height: 48px;
   border-radius: 24px;
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -71,7 +67,6 @@ html {
 }
 .heading_navy {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 900;
   font-size: 60px;
   line-height: 72px;
@@ -79,7 +74,6 @@ html {
 }
 .heading_white {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 900;
   font-size: 60px;
   line-height: 72px;
@@ -87,7 +81,6 @@ html {
 }
 .heading_navy-medium {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
@@ -95,7 +88,6 @@ html {
 }
 .heading_white-medium {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
@@ -103,7 +95,6 @@ html {
 }
 .heading_navy-small {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 900;
   font-size: 30px;
   line-height: 36px;
@@ -111,7 +102,6 @@ html {
 }
 .heading_white-small {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 900;
   font-size: 30px;
   line-height: 36px;
@@ -123,11 +113,13 @@ html {
   margin: 0 auto;
 }
 .row{
-  max-width: 1134px;
+  max-width: 1164px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .testimonials{
   background-color: #fff;
   padding-top: 94px;
   padding-bottom: 100px;
 }
+

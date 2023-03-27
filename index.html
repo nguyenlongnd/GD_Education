@@ -7,6 +7,7 @@
     <title>GD</title>
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/tabletMobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;900&display=swap" rel="stylesheet">
@@ -20,10 +21,26 @@
                     <div class="heading_white-medium ">GD.</div>
                     <div class="navbar-item">
                         <ul>
-                            <li><a href="">About</a> </li>
+                            <li><a href="">About</a></li>
                             <li><a href="">Services</a> </li>
                             <li><a href="">Our Work</a></li>
-                            <li><a class="btn_navy" href="">Enrol Now</a></li>
+                            <li><a class="btn_navy navbar-item_btn-enrol" href="">Enrol Now</a></li>
+                        </ul>
+                    </div>
+                    <!-- navbar for mobile -->
+                    <div class="header_menu_icon">
+                        <img src="./assets/img/Menu_narbar_icon.svg" alt="">
+                    </div>
+                    <!-- navigation_menu for mobile -->
+                    <div class="navigation_menu">
+                        <div class="navigation_menu-closeIcon">
+                            <img src="./assets/img/close_icon.svg" alt="">
+                        </div>
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Our Work</a></li>
+                            <li class="btn_orange-small"><a href="">Enrol Now</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,15 +75,13 @@
                         </div>
                         <div class="information-rating-bg"></div>
                     </div>
-                        <div><img src="./assets/img/banner_girl.png" alt="Students"></div>
+                    <div class="course_information-right"><img src="./assets/img/banner_girl.png" alt="Students"></div>
                 </div>
             </div>
             <!-- end header for desktop -->
         </div>
         <div id="content">
-            <div class="testimonials">
-
-                
+            <div class="testimonials"> 
                 <div class="row">
                     <div class="testimonials-wrapper">
                         <div class="testimonials-left">
@@ -105,7 +120,7 @@
                             <h2 class="heading_navy ">What our students say</h2>
                             <p>All students get access to all the videos and also the source code of the projects.<br />
                                 You will also have access to a private Discord channel where you can discuss your doubts.</p>
-                            <a href=""><div class="btn_orange" >Learn More </div></a>
+                            <a href="" class="testimonials-right-learnMore"><div class="btn_orange" >Learn More </div></a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +133,7 @@
                         </div>
                         <div class="course_section-items">
                             <div class="course_section-item">
-                                <img src="./assets/img/course_1.png" alt="course-1">
+                                <img class="item_img" src="./assets/img/course_1.png" alt="course-1">
                                 <div class="course-item-infor">
                                     <h2>Game Design Essentials</h2>
                                     <div class="course-duration">
@@ -126,10 +141,9 @@
                                         <h3>8 HRS</h3>
                                     </div>
                                 </div>
-                                
                             </div>
                             <div class="course_section-item">
-                                <img src="./assets/img/course_2.png" alt="course-1">
+                                <img class="item_img" src="./assets/img/course_2.png" alt="course-1">
                                 <div class="course-item-infor">
                                     <h2>Unity Game Engine Fundamentals</h2>
                                     <div class="course-duration">
@@ -137,7 +151,6 @@
                                         <h3>8 HRS</h3>
                                     </div>
                                 </div>
-                               
                             </div>
                         </div>
                         <div>

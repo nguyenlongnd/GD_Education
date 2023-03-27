@@ -1,8 +1,6 @@
-/* header */
+/* header for desktop*/
 #header{
-    background:  linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
-    height: 768px;
-    
+    background:  linear-gradient(180deg, #6F7DFB 0%, #26308C 100%); 
 }   
 .header_navbar{
     height: 95px;
@@ -26,6 +24,10 @@
     color: #fff;
     margin-left: 60px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+.header_menu_icon{
+    display: none;
 }
 /* course_information */
 
@@ -146,7 +148,6 @@
 }
  /* end header for desktop */
 
-
  /* testimonial for desktop */
  .testimonials-wrapper{
     display: flex;
@@ -232,14 +233,12 @@
 .testimonial-second-person{
     width: 442px;
     height: 222px;
-    left: 0;
-    top: 35px;
     background: #FFFFFF;
     box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
     position:absolute;
     z-index: 10;
-    top: 307px;
+    top: 290px;
     left: 32px;
 }
 
@@ -265,7 +264,7 @@
 /* course-section for desktop */
 .course_section{
     background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
-    height: 785px;
+    padding-bottom: 168px;
 }
 .course_section-heading{
     text-align: center;
@@ -282,7 +281,7 @@
     height: 418px;
     background: #FFFFFF;
     border-radius: 24px;
-    padding:0 26px;
+    padding:0 32px;
 }
 .course_section-item::after{
     display: block;
@@ -375,7 +374,7 @@
 
 #footer{
     background-color: var(--black-color);
-    height: 410px;
+    padding-bottom: 70px;
 }
 .footer-wrapper a{
     color: #fff;
@@ -383,6 +382,8 @@
 .footer-wrapper {
     display: flex;
     padding-top: 70px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
 }
 .footer-link {
     width: 180px;
@@ -401,6 +402,7 @@ margin-bottom: 14px;
 .footer-course-list ul li {
     margin-bottom: 9px;
     padding-left: 22px;
+    list-style: none;
 }
 .footer-copyright,
 .footer-link-list ul li a,
@@ -443,6 +445,7 @@ margin-bottom: 14px;
 }
 .footer-subscribe input {
     width: 100%;
+    height: 38px;
     outline: none;
     border: none;
     padding-left: 27px;
@@ -452,10 +455,72 @@ margin-bottom: 14px;
     line-height: 32px;
     color: #000000;
     opacity: 0.5;
+    border-radius: 8px;
 }
 .footer-course{
     margin: 0 132px;
 }
 .footer-copyright{
-    margin-top: 32px;
+    padding-top: 32px;
+}
+
+/* navigation menu for mobile */
+.navigation_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black-color);
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    animation: slide 0.3s ease;
+}
+@keyframes slide{
+    from {
+        /* transform: translateX(-100%); */
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+.navigation_menu-closeIcon{
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 32px;
+
+}
+.navigation_menu ul li {
+    list-style: none;
+    margin-bottom: 32px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.navigation_menu ul li:last-child {
+    background-color: var(--orange-color);
+    padding: 12px 32px;
+    height: 48px;
+    border-radius: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.navigation_menu ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
