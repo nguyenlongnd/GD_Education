@@ -326,7 +326,7 @@
 }
 
 .course-section_all-course{
-    display: inline-block;
+    display: block;
     text-decoration: none;  
     margin-top: 40px;
     margin-bottom: 70px;
