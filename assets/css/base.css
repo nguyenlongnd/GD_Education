@@ -65,6 +65,13 @@ html {
   cursor: pointer;
   color: #FFFFFF;
 }
+.btn_navy:hover,
+.btn_orange:hover,
+.btn_navy-small:hover,
+.btn_orange-small:hover{
+  opacity: 0.7;
+}
+
 .heading_navy {
   font-family: 'Raleway';
   font-weight: 900;

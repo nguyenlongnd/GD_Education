@@ -9,10 +9,19 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.heading_white-medium{
+    cursor: pointer;
+}
+.heading_white-medium:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
 .navbar-item ul{
     display: flex;
     list-style: none;
+}
+.navbar-item ul a:hover{
+    opacity: 0.7;
 }
 .navbar-item ul a{
     text-decoration: none;
@@ -403,6 +412,11 @@ margin-bottom: 14px;
     margin-bottom: 9px;
     padding-left: 22px;
     list-style: none;
+}
+.footer-link-list ul li:hover,
+.footer-contact-list ul li:hover,
+.footer-course-list ul li:hover {
+    opacity: 0.7;
 }
 .footer-copyright,
 .footer-link-list ul li a,
